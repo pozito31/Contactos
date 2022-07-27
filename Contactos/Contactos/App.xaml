@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contactos.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="colorPrincipal">#1E90FF</Color>
+            <Style TargetType="Entry">
+                <Setter Property="TextColor" Value="{StaticResource colorPrincipal}"/>
+                <Setter Property="FontFamily" Value="Arial"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+            <Style TargetType="Entry" x:Key="estiloAdicional">
+                <Setter Property="TextColor" Value="Magenta"/>
+                <Setter Property="FontFamily" Value="Arial"/>
+                <Setter Property="FontAttributes" Value="None"/>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
