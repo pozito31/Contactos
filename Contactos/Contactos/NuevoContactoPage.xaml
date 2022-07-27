@@ -10,8 +10,7 @@
                    Text="Nombre"/>
             <Entry x:Name="apellidoEntry"
                    Placeholder="Apellido"
-                   Text="Apellido"
-                   Style="{StaticResource estiloAdicional}"/>
+                   Text="Apellido"/>
             <Entry x:Name="emailEntry"
                    Placeholder="Email"
                    Keyboard="Email"
@@ -20,7 +19,8 @@
             <Entry x:Name="telefonoEntry"
                    Placeholder="Telefono"
                    Keyboard="Telephone"
-                   Text="Telefono"/>
+                   Text="Telefono"
+                   Style="{StaticResource estiloAdicional}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
